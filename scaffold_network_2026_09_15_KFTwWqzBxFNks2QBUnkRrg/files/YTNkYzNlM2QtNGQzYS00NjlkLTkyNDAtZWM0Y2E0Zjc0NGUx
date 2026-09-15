@@ -1,0 +1,1 @@
+{"storage": {"engine": "fs"}, "network": {"x": 200.0, "y": 200.0, "z": 200.0, "chunk_size": [100.0, 100.0, 100.0]}, "partitions": {}, "cell_types": {}, "placement": {}, "connectivity": {}}

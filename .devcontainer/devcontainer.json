@@ -1,0 +1,23 @@
+{
+    "name": "NEST Simulation Environment (with GPU)",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": [
+        "--gpus", "all"
+    ],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/bin/python3"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    },
+    "forwardPorts": [5000, 8000],
+    "remoteUser": "root"
+}
+
